@@ -1,0 +1,24 @@
+{
+    "profiles": [
+        {
+            "name": "Márcia",
+            "image": "female-01.jpg"
+        },
+        {
+            "name": "Vanessa",
+            "image": "female-02.jpg"
+        },
+        {
+            "name": "André",
+            "image": "male-01.jpg"
+        },
+        {
+            "name": "Lucas",
+            "image": "male-02.jpg"
+        },
+        {
+            "name": "Luca",
+            "image": "male-03.jpg"
+        }
+    ]
+}
