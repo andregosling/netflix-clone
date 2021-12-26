@@ -4,7 +4,7 @@ Criado por mim usando React, com Typescript.
 
 ## Visualização
 
-Para ver o site criado, [clique aqui](https://netflix-clone-andre-gosling.vercel.app/).
+Para ver o site criado, [clique aqui](https://netflix-clone.andregosling.com).
 
 ## Portifólio
 
