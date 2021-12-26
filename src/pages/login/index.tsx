@@ -117,7 +117,7 @@ const LoginComponent = ({ storage, dispatch, navigate }: any) => {
                                 <div className={styles['login-inputs']}>
                                     <div>
                                         <div className={styles['input-area']}>
-                                            <div className={`${styles['input-area']} ${styles['flex-container']} ${inputErrors.email ? styles['input-with-error'] : ''}`}>
+                                            <div className={`${styles['input-area']} ${inputErrors.email ? styles['input-with-error'] : ''}`}>
                                                 <div>
                                                     <input type='email' className={styles['password-input']} id='id_email' name='email' onChange={inputChanged}
                                                         onFocus={inputFocus}
@@ -136,7 +136,7 @@ const LoginComponent = ({ storage, dispatch, navigate }: any) => {
                                     </div>
                                     <div>
                                         <div className={styles['input-area']}>
-                                            <div className={`input-area flex-container ${inputErrors.password ? styles['input-with-error'] : ''}`}>
+                                            <div className={`${inputErrors.password ? styles['input-with-error'] : ''}`}>
                                                 <div>
                                                     <input type={showPassword ? 'password' : 'text'} autoComplete='current-password' className={styles['password-input']} id='id_password' name='password' onChange={inputChanged}
                                                         onFocus={inputFocus}
