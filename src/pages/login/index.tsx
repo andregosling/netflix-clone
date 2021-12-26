@@ -117,7 +117,7 @@ const LoginComponent = ({ storage, dispatch, navigate }: any) => {
                                 <div className={styles['login-inputs']}>
                                     <div>
                                         <div className={styles['input-area']}>
-                                            <div className={`${styles['input-area']} ${styles['flex-container']} ${inputErrors.email ? styles[styles['input-with-error']] : ''}`}>
+                                            <div className={`${styles['input-area']} ${styles['flex-container']} ${inputErrors.email ? styles['input-with-error'] : ''}`}>
                                                 <div>
                                                     <input type='email' className={styles['password-input']} id='id_email' name='email' onChange={inputChanged}
                                                         onFocus={inputFocus}
